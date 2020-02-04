@@ -21,3 +21,9 @@ int main(){
 
 }
 */
+void mySwap (int &x,int &y){
+	int a;
+	a = x;
+	x = y;
+	y = a;
+}
